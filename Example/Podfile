@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SeanPageView_Example' do
+  pod 'SeanPageView', :path => '../'
+
+  target 'SeanPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
