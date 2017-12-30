@@ -1,0 +1,6 @@
+framework module SeanPageView {
+  umbrella header "SeanPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

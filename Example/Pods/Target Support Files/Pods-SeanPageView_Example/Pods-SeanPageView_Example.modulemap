@@ -1,0 +1,6 @@
+framework module Pods_SeanPageView_Example {
+  umbrella header "Pods-SeanPageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
