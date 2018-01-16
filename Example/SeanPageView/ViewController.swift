@@ -18,21 +18,26 @@ class ViewController: UIViewController {
         style.isScrollEnable = true
         style.isShowBottomLine = true
         style.isShowCover = true
+        style.isNeedHeader = true
+        style.headerHeight = 200
         let pageViewFrame = CGRect(x: 0, y: 64, width: view.frame.width, height: view.bounds.height - 64)
         //        let titleView = SeanPageTitleView(frame: titleFrame, titles: titles, style: style)
         //    view.addSubview(titleView)
         
-        var childsVc = [UIViewController]()
+        var childsVc = [ItemTableController]()
         
         for  _ in 0..<titles.count {
-            let vc = UIViewController()
+            let vc = ItemTableController()
             vc.view.backgroundColor = UIColor.randomColor()
+            vc.tableView?.scrollIndicatorInsets = UIEdgeInsetsMake(style.headerHeight, 0, 0, 0)
             childsVc.append(vc)
         }
         
         
         let pageView = SeanPageView(frame: pageViewFrame, style: style, childVcs: childsVc, titles: titles, parentVc: self)
-        
+        let headerView = UIView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: style.headerHeight))
+        pageView.headerView = headerView
+        headerView.backgroundColor = UIColor.randomColor()
         view.addSubview(pageView)
         
         

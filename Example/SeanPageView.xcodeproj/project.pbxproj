@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B2922A81200CA575008AE782 /* ItemTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2922A80200CA575008AE782 /* ItemTableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		60F8DA580FE0CCEA415F8DB8 /* SeanPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SeanPageView.podspec; path = ../SeanPageView.podspec; sourceTree = "<group>"; };
 		A34A7B5A476596C8DD4101CA /* Pods-SeanPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeanPageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeanPageView_Example/Pods-SeanPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B2922A80200CA575008AE782 /* ItemTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableController.swift; sourceTree = "<group>"; };
 		BD9F5A9F286F0AD5BDDA2C9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C7062D067925BF118000C53D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E74A63C912061162BA10564B /* Pods_SeanPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeanPageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				14F811DE1FF7CFD800A40930 /* GiftController.swift */,
+				B2922A80200CA575008AE782 /* ItemTableController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -319,6 +322,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				14F811DF1FF7CFD800A40930 /* GiftController.swift in Sources */,
+				B2922A81200CA575008AE782 /* ItemTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -57,7 +57,7 @@ class SeanPageTitleView: UIView {
     fileprivate var titleLabels = [UILabel]()
     // MARK:- 自定义属性
     fileprivate var style :SeanPageViewStyle
-    fileprivate var currentIndex : Int = 0
+    public var currentIndex : Int = 0
     
     // MARK:- 计算属性
     fileprivate lazy var normalRGB : (r : CGFloat, g : CGFloat, b :CGFloat) = self.getRGB(self.style.normalColor)

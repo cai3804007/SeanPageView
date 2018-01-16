@@ -33,8 +33,10 @@ public class SeanPageViewStyle {
     /// 是否进行缩放
     public var isNeedScale : Bool = false
     public  var scaleRange : CGFloat = 1.2
-    
-    
+    //是否需要头视图
+    public var isNeedHeader: Bool = false
+    //头视图高度
+    public var headerHeight: CGFloat = 0.0
     /// 是否显示遮盖
     public  var isShowCover : Bool = false
     /// 遮盖背景颜色
